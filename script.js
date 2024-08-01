@@ -12,7 +12,7 @@ function sendMessage() {
         messageElement.textContent = message;
 
         //append the message to chat box
-        chatBox.appenChild(messageElement);
+        chatBox.appendChild(messageElement);
 
         //Scroll to the bottom of the chat box
         chatBox.scrollTop = chatBox.scrollHeight;
