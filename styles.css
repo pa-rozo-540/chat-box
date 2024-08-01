@@ -12,12 +12,12 @@ body {
     width: 300px;
     height: 400px;
     border: 1px solid #ccc;
-    border-radius: 8px;;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
     background-color: #fff;
 }
-  
+
 .chat-box {
     flex: 1;
     padding: 10px;
@@ -25,13 +25,13 @@ body {
     border-bottom: 1px solid #ccc;
 }
 
-.input-box{ 
+.input-box {
     display: flex;
     padding: 10px;
     background-color: #f9f9f9;
 }
 
-#chat-input{
+#chat-input {
     flex: 1;
     padding: 10px;
     border: 1px solid #ccc;
@@ -48,7 +48,7 @@ body {
     cursor: pointer;
 }
 
-#send-btn:hover{
+#send-btn:hover {
     background-color: #0056b3;
 }
 
