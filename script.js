@@ -1,4 +1,4 @@
-document.getElementById('send-btn).addEventListener('click', sendMessage);
+document.getElementById('send-btn').addEventListener('click', sendMessage);
 
 function sendMessage() {
     const chatInput = document.getElementById('chat-input');
